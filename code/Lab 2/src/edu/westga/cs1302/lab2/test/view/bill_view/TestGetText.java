@@ -25,7 +25,6 @@ class TestGetText {
 		assertEquals(bill.substring(7, 12), "apple");
 		assertEquals(bill.substring(25, 37), "TOTAL - $3.0");
 		
-		System.out.print(bill);
 
 	}
 	
@@ -40,7 +39,6 @@ class TestGetText {
 		myBill.addItem(apple);
 		myBill.addItem(pear);
 		bill = billView.getText(myBill);
-		System.out.print(bill);
 		
 		assertEquals(bill.substring(0, 5), "ITEMS");
 		assertEquals(bill.substring(7, 12), "apple");

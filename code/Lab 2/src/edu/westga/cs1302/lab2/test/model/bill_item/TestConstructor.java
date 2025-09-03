@@ -4,12 +4,9 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import edu.westga.cs1302.lab2.model.Bill;
 import edu.westga.cs1302.lab2.model.BillItem;
 
 class TestConstructor {
-
-	//test: billitem null name, billitem 0 or neg, billitem name, billitem amount
 	
 	@Test
 	void testBillItemName() {

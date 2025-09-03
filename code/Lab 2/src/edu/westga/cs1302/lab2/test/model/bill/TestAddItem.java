@@ -11,9 +11,7 @@ import edu.westga.cs1302.lab2.model.BillItem;
 
 class TestAddItem {
 
-	   /**
-		* Test Adding One Item
-		*/
+	
 				@Test
 				
 				public void testAddOneItem() {
@@ -34,53 +32,49 @@ class TestAddItem {
 					assertEquals(countItems, 1);	
 				}	
 				
-			/**
-			 * Test Adding Two Items
-			 */
-					@Test
+				
+				@Test
 							
-							public void testAddTwoItems() {
+				public void testAddTwoItems() {
 								
-								Bill myBill = new Bill();
-								BillItem apple = new BillItem("apple", 3.0);
-								BillItem pear = new BillItem("pear", 1.5);
-								myBill.addItem(apple);
-								myBill.addItem(pear);
-								ArrayList<BillItem> foodBill = new ArrayList<>();
-								foodBill = myBill.getItems();
-								int countItems = 0;
+					Bill myBill = new Bill();
+					BillItem apple = new BillItem("apple", 3.0);
+					BillItem pear = new BillItem("pear", 1.5);
+					myBill.addItem(apple);
+					myBill.addItem(pear);
+					ArrayList<BillItem> foodBill = new ArrayList<>();
+					foodBill = myBill.getItems();
+					int countItems = 0;
 								
-								for (int il = 0; il < foodBill.size(); ++il) {
+					for (int il = 0; il < foodBill.size(); ++il) {
 									
-									countItems += 1;
-								}
+							countItems += 1;
+					}
 								
-								assertEquals(countItems, 2);
+							assertEquals(countItems, 2);
 						
-							}
+						}
 
-							/**
-							 * Test Adding One Item
-							 */
-							@Test
+					
+			@Test
          			
-         			public void testAddThreeItems() {
+         	public void testAddThreeItems() {
          				
-         				Bill myBill = new Bill();
-         				BillItem apple = new BillItem("apple", 3.0);
-         				BillItem pear = new BillItem("pear", 1.5);
-         				BillItem strawberry = new BillItem("Strawberry", 1.5);
-         				myBill.addItem(apple);
-         				myBill.addItem(pear);
-         				myBill.addItem(strawberry);
-         				ArrayList<BillItem> foodBill = new ArrayList<>();
-         				foodBill = myBill.getItems();
-         				int countItems = 0;
+         			Bill myBill = new Bill();
+         			BillItem apple = new BillItem("apple", 3.0);
+         			BillItem pear = new BillItem("pear", 1.5);
+         			BillItem strawberry = new BillItem("Strawberry", 1.5);
+         			myBill.addItem(apple);
+         			myBill.addItem(pear);
+         			myBill.addItem(strawberry);
+         			ArrayList<BillItem> foodBill = new ArrayList<>();
+         			foodBill = myBill.getItems();
+         			int countItems = 0;
          				
-         				for (int il = 0; il < foodBill.size(); ++il) {
+         			for (int il = 0; il < foodBill.size(); ++il) {
          					
-         					countItems += 1;
-         				}
+         				countItems += 1;
+         			}
          				
          				assertEquals(countItems, 3);	
          			}
