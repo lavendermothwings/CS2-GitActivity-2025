@@ -7,6 +7,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="lib/javafx-sdk-18.0.1/lib/javafx.base.jar"/>
 	<classpathentry kind="lib" path="lib/javafx-sdk-18.0.1/lib/javafx.controls.jar"/>
 	<classpathentry kind="lib" path="lib/javafx-sdk-18.0.1/lib/javafx.fxml.jar"/>
