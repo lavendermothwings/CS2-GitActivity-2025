@@ -1,7 +1,0 @@
-Commit History
-
-Impletmented Add Item Test 1) Tested bill class 2) Added packages
-
-Added JUnit tests 1) Added a test for billItem Constructor 2) Added a test for getTex
-
-Added Commit History and CheckStyle adjustments 1)Added Commit History 2) Used CheckStle to improve format
