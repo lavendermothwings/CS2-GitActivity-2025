@@ -7,4 +7,6 @@ Added JUnit tests 1) Added a test for billItem Constructor 2) Added a test for g
 Added Commit History and CheckStyle adjustments 1)Added Commit History 2) Used CheckStyle to improve format
 
 
-addding and saving to see if commit hisotry will update
+addding and saving to see if commit hisotry will update\
+
+wow, commit did update but why for this file and not others. Let's test this again
