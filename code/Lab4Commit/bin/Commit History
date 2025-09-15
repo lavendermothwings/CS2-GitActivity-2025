@@ -1,0 +1,21 @@
+Commit History
+
+Created billCalculator and tests for billCalculator and added a commit history 
+1) Created billCalculator getSubTotal, getTax, and getTip 
+2) Added tests for getSubTotal and getTax. 
+3)Need to finish billCalculator and tests 4)Added Commit History
+
+
+Finished billCalculator and changed getText
+1) Finished billCalculaor
+2)changed getText to use billCalculator
+
+
+CheckStyle formatting and separated BillCalculator tests into their own JUnit tests
+1) Fixed any checkstyle formatting in BillCalculator and Bill View
+2) Created a Junit test for each method in BillCalculator and re ran all the tests
+
+Finished checkstyle, added more tests, fixed BillCalculator
+1) Went over project with checkstyle
+2) Added more tests to JUnit
+3)Adjusted BillCalculator to be more precise
